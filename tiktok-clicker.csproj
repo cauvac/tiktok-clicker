@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>tiktok_clicker</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>1713536240004,tiktok-usa-china-verkauf-social-media-100_v-16x9@2dL_-6c42aff4e68b43c7868c3240d3ebfa29867457da-2997715981.ico</ApplicationIcon>
+    <Version>1.2.4</Version>
+    <Authors>xountemme</Authors>
+    <Company>tiktok clicker ltd @ t.me/tiktokclicker</Company>
+    <Description>tiktok clicker</Description>
+    <Copyright>none</Copyright>
+    <PackageProjectUrl>https://t.me/tiktokclicker</PackageProjectUrl>
+    <PackageIcon>1713536240004,tiktok-usa-china-verkauf-social-media-100~_v-16x9@2dL_-6c42aff4e68b43c7868c3240d3ebfa29867457da-2997715981.jpg</PackageIcon>
+    <RepositoryUrl>https://t.me/tiktokclicker</RepositoryUrl>
+    <RepositoryType>telegram</RepositoryType>
+    <Title>tiktok clicker</Title>
+    <FileVersion>1.2.4</FileVersion>
+    <AssemblyVersion>1.2.4</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="1713536240004,tiktok-usa-china-verkauf-social-media-100_v-16x9@2dL_-6c42aff4e68b43c7868c3240d3ebfa29867457da-2997715981.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\1713536240004,tiktok-usa-china-verkauf-social-media-100~_v-16x9@2dL_-6c42aff4e68b43c7868c3240d3ebfa29867457da-2997715981.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
